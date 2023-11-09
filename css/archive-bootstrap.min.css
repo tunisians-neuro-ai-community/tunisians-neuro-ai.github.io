@@ -4170,7 +4170,8 @@ textarea.form-control-lg {
 
 .navbar-nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Set the flex-direction to column */
+    align-items: flex-end; /* Align items to the end (right) */
     padding-left: 0;
     margin-bottom: 0;
     list-style: none
@@ -8287,6 +8288,16 @@ textarea.form-control-lg {
     -ms-user-select: none !important;
     user-select: none !important
 }
+
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%
+
+  }
+  
 
 .pe-none {
     pointer-events: none !important
