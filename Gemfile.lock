@@ -113,6 +113,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-paginate
   jekyll-redirect-from
+  jekyll-sass-converter (~> 3.0)
   jekyll-seo-tag
   jekyll-sitemap
   rake (~> 12.0)
