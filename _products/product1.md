@@ -2,7 +2,7 @@
 title: TuNA first MeetUp
 subtitle: Kick off meeting
 # description: This is a product description
-layout: product
+layout: news
 image: /img/meetup_2024.webp
 price: £1.99 + VAT
 features:
