@@ -1,0 +1,14 @@
+style: is-light
+items:
+  - title: Meet TuNA
+    description: >
+      A community of Tunisians with an interest in neuroscience, AI, and related fields like machine learning, cognitive science, and psychiatry.
+    icon: fa-people-group
+  - title: Why the Name?
+    description: >
+      Well, as a coastal mediterranean country, we love seafood, especially Tuna! It's a playful nod to our roots and shared passion for Neuroscience and AI.
+    icon: fa-fish
+  - title: Vision and Mission
+    description: >
+      Bringing together Tunisians in Neuroscience and AI to share knowledge, foster collaborations, promote work, and empower the next generation through mentoring and opportunities.
+    icon: fa-lightbulb

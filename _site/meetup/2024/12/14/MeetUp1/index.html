@@ -1,0 +1,310 @@
+<!doctype html>
+
+
+
+
+<html
+    dir="ltr"
+    lang="en"
+    class=" has-navbar-fixed-top   theme-light "
+>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#eb8686">
+    <link rel="stylesheet" href="/tunisians-neuroscience-ai/assets/css/app.css">
+    <link
+        rel="shortcut icon"
+        type="image/png"
+        
+            href="/tunisians-neuroscience-ai/favicon.png"
+        
+    >
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"
+    ></script>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>TuNA’s first Meetup | Tunisians in Neuroscience and AI</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="TuNA’s first Meetup" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="We plan to organize our first meetup this winter. Stay tuned for more details." />
+<meta property="og:description" content="We plan to organize our first meetup this winter. Stay tuned for more details." />
+<link rel="canonical" href="http://localhost:4000/tunisians-neuroscience-ai/meetup/2024/12/14/MeetUp1/" />
+<meta property="og:url" content="http://localhost:4000/tunisians-neuroscience-ai/meetup/2024/12/14/MeetUp1/" />
+<meta property="og:site_name" content="Tunisians in Neuroscience and AI" />
+<meta property="og:image" content="http://localhost:4000/tunisians-neuroscience-ai/img/meetup_2024.webp" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-12-14T00:00:00-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/tunisians-neuroscience-ai/img/meetup_2024.webp" />
+<meta property="twitter:title" content="TuNA’s first Meetup" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-12-14T00:00:00-05:00","datePublished":"2024-12-14T00:00:00-05:00","description":"We plan to organize our first meetup this winter. Stay tuned for more details.","headline":"TuNA’s first Meetup","image":"http://localhost:4000/tunisians-neuroscience-ai/img/meetup_2024.webp","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/tunisians-neuroscience-ai/meetup/2024/12/14/MeetUp1/"},"url":"http://localhost:4000/tunisians-neuroscience-ai/meetup/2024/12/14/MeetUp1/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- head scripts -->
+</head>
+
+    <body>
+        
+            <div class="">
+    <div class="container py-6 px-4" id="cookieBanner">
+        <div class="columns">
+            <div class="column is-fullwidth ">
+                <div class="content">
+                    <p>We use cookies on this site to enhance your user experience</p>
+                    <p>
+                        By clicking the Accept button, you agree to us doing so.
+                        <a href="/tunisians-neuroscience-ai/cookie-policy/">More info on our cookie policy</a>
+                    </p>
+                </div>
+
+                <div class="buttons mt-4">
+                    <button class="button is-primary" onclick="acceptCookies()">Accept all cookies</button>
+                    <button class="button is-primary" onclick="rejectCookies()">Reject all cookies</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function acceptCookies() {
+            
+            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
+            Cookies.set('cookiesAccepted', 'true', {expires: 365, path: '/'});
+            toggleCookieBanner();
+        }
+
+        function rejectCookies() {
+            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
+            toggleCookieBanner();
+        }
+
+        function toggleCookieBanner() {
+            var showBanner = Cookies.get('showCookieBanner');
+            var banner = document.getElementById('cookieBanner');
+
+            if (showBanner === 'false') {
+                banner.setAttribute('style', 'display: none;');
+            } else {
+                banner.setAttribute('style', 'display: block;');
+            }
+        }
+
+        toggleCookieBanner();
+    </script>
+</div>
+
+        
+        <nav
+    class="navbar is-primary  is-fixed-top "
+    x-data="{ openNav: false }"
+>
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/tunisians-neuroscience-ai/" class="navbar-item">
+                Tunisians in Neuroscience and AI
+            </a>
+            <a
+                role="button"
+                class="navbar-burger burger"
+                aria-label="menu"
+                aria-expanded="false"
+                data-target="navMenu"
+                :class="{ 'is-active': openNav }"
+                x-on:click="openNav = !openNav"
+            >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/tunisians-neuroscience-ai/" class="navbar-item ">Home</a>
+                
+                    
+                        
+                            <a
+                                href="/tunisians-neuroscience-ai/news/"
+                                class="navbar-item "
+                            >News</a>
+                        
+                    
+                        
+                            <a
+                                href="/tunisians-neuroscience-ai/members/"
+                                class="navbar-item "
+                            >Members</a>
+                        
+                    
+                        
+                            <a
+                                href="/tunisians-neuroscience-ai/events/"
+                                class="navbar-item "
+                            >Events</a>
+                        
+                    
+                        
+                            <a
+                                href="/tunisians-neuroscience-ai/opportunities/"
+                                class="navbar-item "
+                            >Opportunities</a>
+                        
+                    
+                        
+                            <a
+                                href="/tunisians-neuroscience-ai/contact/"
+                                class="navbar-item "
+                            >Contact</a>
+                        
+                    
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+        
+            <section
+    class="hero  is-medium  is-bold is-primary"
+    
+>
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">TuNA's first Meetup</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
+    </div>
+</section>
+
+        
+        
+
+        <section class="section">
+            <div class="container">
+                <div class="columns is-multiline">
+                    
+                    <div class="column is-8">
+                        
+
+                        
+
+                        
+
+                        
+
+                        <div class="content">
+    <p>Date: Coming Soon at Koujina Café</p>
+
+    
+
+    <p>We plan to organize our first meetup this winter. Stay tuned for more details.</p>
+
+</div>
+
+<div class="tags my-4">
+    
+</div>
+                    </div>
+                    
+                        <div class="column is-4-desktop is-4-tablet">
+                            <p class="title is-4">Latest News</p>
+
+<div class="columns is-multiline">
+    
+        <div class="column is-12">
+            <div class="card">
+    
+        <div class="card-image is-inline-block" style="overflow: hidden; display: inline-block; border-radius: 2%;">
+            <img src="/tunisians-neuroscience-ai/img/meetup_2024.webp" alt="TuNA's first Meetup">
+        </div>
+
+    
+    <div class="card-content">
+        <div class="content">
+            
+                <a class="title is-4" href="/tunisians-neuroscience-ai/meetup/2024/12/14/MeetUp1/">TuNA's first Meetup</a>
+            
+            
+                <p><p>We plan to organize our first meetup this winter. Stay tuned for more details.</p>
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/tunisians-neuroscience-ai/meetup/2024/12/14/MeetUp1/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Date: Coming Soon</p>
+    </footer>
+</div>
+
+        </div>
+    
+</div>
+
+                        </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+            <footer class="footer">
+    <div class="container">
+        
+            <div class="columns is-multiline">
+                
+                    <div class="column has-text-centered">
+                        <div>
+                            <a href="/tunisians-neuroscience-ai/" class="link">Home</a>
+                        </div>
+                    </div>
+                
+                    <div class="column has-text-centered">
+                        <div>
+                            <a href="/tunisians-neuroscience-ai/events/" class="link">Events</a>
+                        </div>
+                    </div>
+                
+                    <div class="column has-text-centered">
+                        <div>
+                            <a href="/tunisians-neuroscience-ai/opportunities/" class="link">Opportunities</a>
+                        </div>
+                    </div>
+                
+                    <div class="column has-text-centered">
+                        <div>
+                            <a href="/tunisians-neuroscience-ai/contact/" class="link">Contact</a>
+                        </div>
+                    </div>
+                
+            </div>
+        
+
+        
+
+
+        <div class="content is-small has-text-centered">
+            <p class="">TuNA 2024 ❤️ Built using <a href="https://github.com/chrisrhymes/bulma-clean-theme" target="_blank">Bulma Clean Theme</a>
+        </div>
+    </div>
+</footer>
+
+        
+        <script src="/tunisians-neuroscience-ai/assets/js/app.js" type="text/javascript"></script><!-- footer scripts -->
+</body>
+</html>

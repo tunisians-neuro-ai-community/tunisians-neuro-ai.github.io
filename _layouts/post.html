@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="content">
+    <p>Date: {{ page.event_date }} at {{ page.location }}</p>
+
+    {% if page.series %}
+        {% include series.html %}
+    {% endif %}
+
+    {{ content }}
+</div>
+
+<div class="tags my-4">
+    {% for tag in page.tags %}
+        {% include tag.html tag=tag %}
+    {% endfor %}
+</div>

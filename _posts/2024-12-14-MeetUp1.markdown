@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TuNA's first Meetup"
+event_date: Coming Soon
+categories: MeetUp
+image: '/img/meetup_2024.webp'
+published: true
+location: Koujina Café
+---
+
+We plan to organize our first meetup this winter. Stay tuned for more details.

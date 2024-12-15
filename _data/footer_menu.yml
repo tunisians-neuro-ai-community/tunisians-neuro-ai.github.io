@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Events
+  link: /events/
+- name: Opportunities
+  link: /opportunities/
+- name: Contact
+  link: /contact/

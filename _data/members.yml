@@ -1,0 +1,48 @@
+- name: Not an exhaustive list, we try to make it up to date
+  size: small #large
+  description: |-
+    If you would like to join us, please get in touch.
+  members:
+    - name: Karim Jerbi
+      image: img/Karim_Jerbi_PhD_new.jpg
+      affiliation: Mila, Université de Montréal
+      role: Full Professor
+      twitter: https://twitter.com/karimjerbineuro
+      bluesky: https://bsky.app/profile/karimjerbi.bsky.social
+      linkedin: https://www.linkedin.com/in/karimjerbi/
+      scholar: https://scholar.google.com/citations?user=FvXuJbUAAAAJ
+      website: http://www.karimjerbi.com
+      location: Montreal, Canada
+    - name: Hamza Abdelhedi
+      image: /img/hamza_abdelhedi.jpeg
+      affiliation: Mila, Université de Montréal
+      role: PhD Student
+      twitter: https://twitter.com/hamza_abdelhedi
+      bluesky: https://bsky.app/profile/hamza-abdelhedi.bsky.social
+      linkedin: https://www.linkedin.com/in/hamza-abdelhedi/
+      scholar: https://scholar.google.com/citations?hl=en&user=xcX55QsAAAAJ
+      website: https://hamzaabdelhedi.com
+      github: https://github.com/BabaSanfour
+      location: Montreal, Canada
+    - name: Myriam Hafsia
+      image: /img/Mariem_Hafsia.jpg
+      affiliation: Université de Montréal
+      role: PhD Student
+      location: Montreal, Canada
+      linkedin: https://www.linkedin.com/in/mariemhafsia/
+      github: https://github.com/Mhafsia
+    - name: Meriam Zid
+      image: /img/meriam_zid.jpeg
+      affiliation: Université de Montréal
+      role: PhD Student
+      location: Montreal, Canada
+      scholar: https://scholar.google.com/citations?user=I6CnFEMAAAAJ&hl=fr
+      linkedin: https://www.linkedin.com/in/meriam-zid-52353a1b7/
+    - name: Istabrak Abbes 
+      image: /img/istabrak.jpg
+      affiliation: Université de Montréal
+      role: MSc Student
+      location: Montreal, Canada
+      linkedin: https://www.linkedin.com/in/istabrak-abbes/
+      github: https://github.com/istabrak-abbes
+
