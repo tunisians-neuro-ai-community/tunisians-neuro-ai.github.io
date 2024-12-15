@@ -31,22 +31,27 @@ include:
   - _pages
 
 plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-seo-tag
-  - kramdown-parser-gfm
-  - jekyll-redirect-from
 
-exclude: 
-  - Gemfile
-  - clean-theme.gemspec
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+# plugins:
+#   - jekyll-sitemap
+#   - jekyll-paginate
+#   - jekyll-feed
+#   - jekyll-seo-tag
+#   - kramdown-parser-gfm
+#   - jekyll-redirect-from
+
+# exclude: 
+#   - Gemfile
+#   - clean-theme.gemspec
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
 livereload: true
 
