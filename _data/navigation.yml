@@ -7,7 +7,7 @@
 - name: Opportunities
   link: /opportunities/
 - name: Contact
-  link: /contact/
+  link: ./contact/
 # - name: Example Pages
 #   link: /#
 #   dropdown:
