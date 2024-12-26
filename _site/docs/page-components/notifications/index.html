@@ -21,9 +21,9 @@
         
     >
     <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
-    <script
+    <!-- <script
         src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"
-    ></script>
+    ></script> -->
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -55,56 +55,6 @@
 </head>
 
     <body>
-        
-            <div class="">
-    <div class="container py-6 px-4" id="cookieBanner">
-        <div class="columns">
-            <div class="column is-fullwidth ">
-                <div class="content">
-                    <p>We use cookies on this site to enhance your user experience</p>
-                    <p>
-                        By clicking the Accept button, you agree to us doing so.
-                        <a href="/tunisians-neuroscience-ai/cookie-policy/">More info on our cookie policy</a>
-                    </p>
-                </div>
-
-                <div class="buttons mt-4">
-                    <button class="button is-primary" onclick="acceptCookies()">Accept all cookies</button>
-                    <button class="button is-primary" onclick="rejectCookies()">Reject all cookies</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        function acceptCookies() {
-            
-            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
-            Cookies.set('cookiesAccepted', 'true', {expires: 365, path: '/'});
-            toggleCookieBanner();
-        }
-
-        function rejectCookies() {
-            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
-            toggleCookieBanner();
-        }
-
-        function toggleCookieBanner() {
-            var showBanner = Cookies.get('showCookieBanner');
-            var banner = document.getElementById('cookieBanner');
-
-            if (showBanner === 'false') {
-                banner.setAttribute('style', 'display: none;');
-            } else {
-                banner.setAttribute('style', 'display: block;');
-            }
-        }
-
-        toggleCookieBanner();
-    </script>
-</div>
-
-        
         <nav
     class="navbar is-primary  is-fixed-top "
     x-data="{ openNav: false }"
@@ -423,7 +373,7 @@
 
 <p>Use the following code to include a simple notification.</p>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="w"> </span><span class="na">message</span><span class="o">=</span><span class="s2">"This is the message for the notification"</span><span class="w"> </span><span class="cp">%}</span>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="w"> </span><span class="na">message</span><span class="o">=</span><span class="s2">"This is the message for the notification"</span><span class="w"> </span><span class="p">%}</span>
 </code></pre></div></div>
 
 <h2 id="overriding-defaults">Overriding Defaults</h2>
@@ -449,9 +399,9 @@
     </div>
 </div>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="w"> </span><span class="na">message</span><span class="o">=</span><span class="s2">"This is the message for the notification"</span><span class="w"> 
-</span><span class="na">status</span><span class="o">=</span><span class="s2">"is-danger"</span><span class="w"> 
-</span><span class="na">icon</span><span class="o">=</span><span class="s2">"fas fa-exclamation-triangle"</span><span class="w"> </span><span class="cp">%}</span>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="w"> </span><span class="na">message</span><span class="o">=</span><span class="s2">"This is the message for the notification"</span><span class="w"> </span><span class="err">
+</span><span class="na">status</span><span class="o">=</span><span class="s2">"is-danger"</span><span class="w"> </span><span class="err">
+</span><span class="na">icon</span><span class="o">=</span><span class="s2">"fas fa-exclamation-triangle"</span><span class="w"> </span><span class="p">%}</span>
 </code></pre></div></div>
 
 <h2 id="markdown-message">Markdown message</h2>
@@ -484,14 +434,14 @@
     </div>
 </div>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="w"> 
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="w"> </span><span class="err">
 </span><span class="na">message</span><span class="o">=</span><span class="s2">"This **message** contains _markdown_ and a [link](https://www.csrhymes.com).
 
 It also contains a second paragraph.
 
 * List item
 * List item
-"</span><span class="w">  </span><span class="cp">%}</span>
+"</span><span class="w">  </span><span class="p">%}</span>
 </code></pre></div></div>
 
 <h2 id="dismissible-notifications">Dismissible Notifications</h2>
@@ -519,10 +469,10 @@ It also contains a second paragraph.
     </div>
 </div>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="w">
-</span><span class="na">message</span><span class="o">=</span><span class="s2">"This notification is dismissable"</span><span class="w">
-</span><span class="na">status</span><span class="o">=</span><span class="s2">"is-info"</span><span class="w">
-</span><span class="na">dismissable</span><span class="o">=</span><span class="s2">"true"</span><span class="w"> </span><span class="cp">%}</span>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="err">
+</span><span class="na">message</span><span class="o">=</span><span class="s2">"This notification is dismissable"</span><span class="err">
+</span><span class="na">status</span><span class="o">=</span><span class="s2">"is-info"</span><span class="err">
+</span><span class="na">dismissable</span><span class="o">=</span><span class="s2">"true"</span><span class="w"> </span><span class="p">%}</span>
 </code></pre></div></div>
 
 <h2 id="iconless-notifications">Iconless Notifications</h2>
@@ -542,10 +492,10 @@ It also contains a second paragraph.
     </div>
 </div>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="w">
-</span><span class="na">message</span><span class="o">=</span><span class="s2">"This notification does not have an icon."</span><span class="w">
-</span><span class="na">icon</span><span class="o">=</span><span class="s2">"false"</span><span class="w">
-</span><span class="na">status</span><span class="o">=</span><span class="s2">"is-success"</span><span class="w"> </span><span class="cp">%}</span>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="err">
+</span><span class="na">message</span><span class="o">=</span><span class="s2">"This notification does not have an icon."</span><span class="err">
+</span><span class="na">icon</span><span class="o">=</span><span class="s2">"false"</span><span class="err">
+</span><span class="na">status</span><span class="o">=</span><span class="s2">"is-success"</span><span class="w"> </span><span class="p">%}</span>
 </code></pre></div></div>
 
 </div>

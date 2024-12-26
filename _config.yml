@@ -61,8 +61,6 @@ sass:
   # load_paths: 
     # - node_modules
 
-#google_analytics: UA-code-here
-cookie_policy: /cookie-policy/
 
 defaults:
   -
@@ -88,9 +86,9 @@ highlighter: rouge
 footer_menu: footer_menu
 
 collections:
-  products: 
+  news: 
     output: true
-    layout: product
+    layout: news_page
     image: https://via.placeholder.com/800x600
     show_sidebar: false
 

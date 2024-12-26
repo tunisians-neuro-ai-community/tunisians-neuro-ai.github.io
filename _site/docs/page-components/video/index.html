@@ -21,9 +21,9 @@
         
     >
     <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
-    <script
+    <!-- <script
         src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"
-    ></script>
+    ></script> -->
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -55,56 +55,6 @@
 </head>
 
     <body>
-        
-            <div class="">
-    <div class="container py-6 px-4" id="cookieBanner">
-        <div class="columns">
-            <div class="column is-fullwidth ">
-                <div class="content">
-                    <p>We use cookies on this site to enhance your user experience</p>
-                    <p>
-                        By clicking the Accept button, you agree to us doing so.
-                        <a href="/tunisians-neuroscience-ai/cookie-policy/">More info on our cookie policy</a>
-                    </p>
-                </div>
-
-                <div class="buttons mt-4">
-                    <button class="button is-primary" onclick="acceptCookies()">Accept all cookies</button>
-                    <button class="button is-primary" onclick="rejectCookies()">Reject all cookies</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        function acceptCookies() {
-            
-            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
-            Cookies.set('cookiesAccepted', 'true', {expires: 365, path: '/'});
-            toggleCookieBanner();
-        }
-
-        function rejectCookies() {
-            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
-            toggleCookieBanner();
-        }
-
-        function toggleCookieBanner() {
-            var showBanner = Cookies.get('showCookieBanner');
-            var banner = document.getElementById('cookieBanner');
-
-            if (showBanner === 'false') {
-                banner.setAttribute('style', 'display: none;');
-            } else {
-                banner.setAttribute('style', 'display: block;');
-            }
-        }
-
-        toggleCookieBanner();
-    </script>
-</div>
-
-        
         <nav
     class="navbar is-primary  is-fixed-top "
     x-data="{ openNav: false }"
@@ -431,21 +381,21 @@
 
 <p>To embed the YouTube video, include the youtube.html where you want the video to appear and then pass in the YouTube id as the video variable.</p>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>youtube.html<span class="w"> </span><span class="na">video</span><span class="o">=</span><span class="s2">"videoid"</span><span class="w"> </span><span class="cp">%}</span>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>youtube.html<span class="w"> </span><span class="na">video</span><span class="o">=</span><span class="s2">"videoid"</span><span class="w"> </span><span class="p">%}</span>
 </code></pre></div></div>
 
 <h3 id="start-time">Start Time</h3>
 
 <p>You can optionally include a start time in seconds. This works the same as the ?t= parameter in Youtube URLs.</p>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>youtube.html<span class="w"> </span><span class="na">video</span><span class="o">=</span><span class="s2">"videoid"</span><span class="w"> </span><span class="na">time</span><span class="o">=</span><span class="mi">210</span><span class="w"> </span><span class="cp">%}</span>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>youtube.html<span class="w"> </span><span class="na">video</span><span class="o">=</span><span class="s2">"videoid"</span><span class="w"> </span><span class="na">time</span><span class="o">=</span><span class="mi">210</span><span class="w"> </span><span class="p">%}</span>
 </code></pre></div></div>
 
 <h2 id="tiktok-video">TikTok Video</h2>
 
 <p>You can include a TikTok video by passing in the video id to the tiktok.html.</p>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>tiktok.html<span class="w"> </span><span class="na">video</span><span class="o">=</span><span class="s2">"videoid"</span><span class="w"> </span><span class="cp">%}</span>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>tiktok.html<span class="w"> </span><span class="na">video</span><span class="o">=</span><span class="s2">"videoid"</span><span class="w"> </span><span class="p">%}</span>
 </code></pre></div></div>
 
 <figure class="image is-16by9">
@@ -456,7 +406,7 @@
 
 <p>It is also possible to embed Vimeo videos in a similar way by including the vimeo.html and passing in the video id.</p>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>vimeo.html<span class="w"> </span><span class="na">video</span><span class="o">=</span><span class="s2">"videoid"</span><span class="w"> </span><span class="cp">%}</span>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>vimeo.html<span class="w"> </span><span class="na">video</span><span class="o">=</span><span class="s2">"videoid"</span><span class="w"> </span><span class="p">%}</span>
 </code></pre></div></div>
 
 

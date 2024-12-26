@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/tunisians-neuroscience-ai/meetup/2024/12/14/MeetUp1/</loc>
-<lastmod>2024-12-14T00:00:00-05:00</lastmod>
+<loc>http://localhost:4000/tunisians-neuroscience-ai/news/new1/</loc>
+<lastmod>2024-12-25T21:27:19-05:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/tunisians-neuroscience-ai/products/product1/</loc>
-<lastmod>2024-12-15T20:29:34-05:00</lastmod>
+<loc>http://localhost:4000/tunisians-neuroscience-ai/meetup/2024/12/14/MeetUp1/</loc>
+<lastmod>2024-12-14T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/tunisians-neuroscience-ai/docs/page-components/callouts/</loc>
@@ -22,9 +22,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/tunisians-neuroscience-ai/docs/page-components/cookie-banner/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/tunisians-neuroscience-ai/cookiepolicy</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tunisians-neuroscience-ai/docs/pages/creating-a-page/</loc>

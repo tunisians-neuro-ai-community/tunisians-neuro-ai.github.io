@@ -8,8 +8,6 @@ hero_link: /contact/
 hero_link_text: Get in touch
 # hero_height: is-large
 ---
-<!-- Together, we bridge the gaps, share knowledge, and uplift each other, no matter where in the world we may be. -->
-
 # Members
 Our main objective is to create a collaborative network of Tunisians worldwide. We encourage anyone involved in Neuroscience or AI to join and participate in our meet-ups and events. Additionally, we welcome individuals who are interested in joining the field and want to be part of this community.
 

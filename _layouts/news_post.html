@@ -45,10 +45,10 @@ layout: default
         </div>
     </div>
 
-    {% if site.data.reviews[page.product_code] %}
+    {% if site.data.reviews[page.news_code] %}
         <div class="column is-12">
             <p class="title is-4">Reviews</p>
-            {% for review in site.data.reviews[page.product_code] %}
+            {% for review in site.data.reviews[page.news_code] %}
                 {% include review.html %}
             {% endfor %}
         </div>
