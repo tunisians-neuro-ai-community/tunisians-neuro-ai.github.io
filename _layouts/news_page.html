@@ -19,7 +19,7 @@ show_sidebar: false
                 <div class="card">
                     {% if news.image %}
                         <div class="card-image">
-                            <figure class="image is-4by3">
+                            <figure class="card-image is-inline-block" style="overflow: hidden; display: inline-block; border-radius: 2%;">
                                 <img src="{{ news.image | relative_url }}" alt="{{ news.title }}">
                             </figure>
                         </div>

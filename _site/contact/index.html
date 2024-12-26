@@ -75,8 +75,7 @@
             </a>
         </div>
         <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
-            <div class="navbar-start">
-                <a href="/tunisians-neuroscience-ai/" class="navbar-item ">Home</a>
+            <div class="navbar-end">
                 
                     
                         
@@ -112,6 +111,13 @@
                                 href="/tunisians-neuroscience-ai/contact/"
                                 class="navbar-item is-active"
                             >Contact</a>
+                        
+                    
+                        
+                            <a
+                                href="/tunisians-neuroscience-ai/code-of-conduct/"
+                                class="navbar-item "
+                            >Code of Conduct</a>
                         
                     
                 
@@ -162,17 +168,42 @@
                 <div class="container">
                     <div class="columns is-centered">
                         <div class="column is-6">
-                            <h2 class="title mb-4 has-text-centered">Subscribe for news, events, opportunities (and discounts on tuna)</h2>
-<form>
-    <label class="label">Email</label>
+                            <h2 class="title mb-4 has-text-centered">Subscribe for news, events, opportunities and much more!</h2>
+<form action="https://formspree.io/f/xdkkawdl" method="POST" class="box" >
+    <label class="label">Your Email</label>
     <div class="field has-addons">
         <div class="control is-expanded">
-            <input class="input is-medium" type="text" type="email">
+            <input class="input is-medium" type="email" name="email" placeholder="Enter your email" required>
         </div>
         <div class="control">
             <button class="button is-medium is-primary">Submit</button>
         </div>
     </div>
+</form>
+
+<h2 class="title mb-4 mt-5 has-text-centered">Get in touch!</h2>
+
+<form action="https://formspree.io/f/xdkkawdl" method="POST" class="box">
+
+  <div class="field">
+    <label class="label">Your Email</label>
+    <div class="control">
+      <input class="input" type="email" name="email" placeholder="Enter your email" required>
+    </div>
+  </div>
+
+  <div class="field">
+    <label class="label">Your Message</label>
+    <div class="control">
+      <textarea class="textarea" name="message" placeholder="Write your message" required></textarea>
+    </div>
+  </div>
+
+  <div class="field mt-4">
+    <div class="control">
+      <button class="button is-primary" type="submit">Send</button>
+    </div>
+  </div>
 </form>
 
                         </div>

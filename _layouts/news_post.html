@@ -3,22 +3,22 @@ layout: default
 ---
 <div class="columns is-multiline">
     <div class="column is-6">
-        <figure class="image is-4by3">
-            <img src="{{ page.image }}">
+        <figure class="card-image is-inline-block" style="overflow: hidden; display: inline-block; border-radius: 2%;">
+            <img src="{{ page.image | relative_url}}">
         </figure>
     </div>
 
     <div class="column is-6">
         <p class="title is-3">{{ page.title }}</p>
         <p class="subtitle is-3">{{ page.subtitle }}</p>
-        <p class="title is-4 has-text-right">{{ page.price }}</p>
-        {% if page.product_code %}
+        <p class="title is-4 has-text-right">{{ page.event_date }}</p>
+        <!-- {% if page.product_code %}
             <p class="subtitle is-5 has-text-right">{{ page.product_code }}</p>
-        {% endif %}
+        {% endif %} -->
 
-        {% if page.rating %}
+        <!-- {% if page.rating %}
             {% include rating.html rating=page.rating %}
-        {% endif %}
+        {% endif %} -->
 
         {% if page.features %}
             <div class="content">
@@ -44,13 +44,4 @@ layout: default
             {{ content }}
         </div>
     </div>
-
-    {% if site.data.reviews[page.news_code] %}
-        <div class="column is-12">
-            <p class="title is-4">Reviews</p>
-            {% for review in site.data.reviews[page.news_code] %}
-                {% include review.html %}
-            {% endfor %}
-        </div>
-    {% endif %}
 </div>

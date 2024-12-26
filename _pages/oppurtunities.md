@@ -2,7 +2,7 @@
 title: Opportunities
 subtitle: Coming Soon! We share opportunities relevant to the community
 layout: page
-show_sidebar: false
+show_sidebar: true
 permalink: /opportunities/
 
 ---
