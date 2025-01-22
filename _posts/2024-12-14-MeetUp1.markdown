@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "TuNA's first Meetup"
-event_date: Coming Soon
+event_date: Jan/Feb 2025 [TBD]
 categories: MeetUp
-image: '/img/meetup_2024.webp'
+image: '/img/Koujina_Cafe_00.jpg'
 published: true
-location: Koujina Café
+location: [Location: Montreal]
 ---
 
-We plan to organize our first meetup this winter. Stay tuned for more details.
+The goal of the first meet-up is to launch the discussions that will shape the mission and activities organized by TuNA. In addition to getting to know each other better, we will share ideas, discuss the website and social media presence, creating a mailing-list or slack workspace, the logo design, reaching out to potential new members, event organization and sponsorships etc.
