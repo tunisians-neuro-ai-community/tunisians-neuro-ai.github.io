@@ -3,7 +3,7 @@ title: TuNA first MeetUp
 subtitle: Kick off meeting - Jan/Feb 2025 [TBD]
 # description: This is a product description
 layout: news_post
-image: /img/Koujina_Cafe_00.jpg
+#image: /img/Koujina_Cafe_00.jpg
 event_date: Did Not take place yet
 excerpt: true
 # features:
