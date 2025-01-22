@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/tunisians-neuroscience-ai/sitemap.xml
+Sitemap: https://www.tunisiansneuroscienceai.com/tunisians-neuro-ai.github.io/sitemap.xml
