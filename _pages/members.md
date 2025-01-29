@@ -99,7 +99,7 @@ permalink: /members/
   <!-- Submit Button -->
   <div class="field mt-4 has-text-centered">
     <div class="control">
-      <button class="button is-primary" type="submit">Join Now</button>
+      <button class="button is-primary" type="submit">Send!</button>
     </div>
   </div>
 
