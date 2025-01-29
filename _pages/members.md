@@ -22,7 +22,7 @@ permalink: /members/
             </div>
         </div>
         <div class="field mb-4">
-            <label class="label">Location (Where Based; Required)</label>
+            <label class="label">Current location (Required)</label>
             <div class="control">
                 <input class="input" style="width: 80%;" type="text" name="location" placeholder="City, Country" required>
             </div>

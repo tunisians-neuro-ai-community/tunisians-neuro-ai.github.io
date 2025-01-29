@@ -1,7 +1,7 @@
-- name: Not an exhaustive list, we try to make it up to date
+- name: If you would like to join us, please fill the form below.
   size: small #large
   description: |-
-    If you would like to join us, please fill the form below.
+    
   members:
     - name: Karim Jerbi
       image: img/Karim_Jerbi_PhD_new.jpg
