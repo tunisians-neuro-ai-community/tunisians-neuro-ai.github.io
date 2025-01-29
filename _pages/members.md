@@ -7,7 +7,7 @@ permalink: /members/
 ---
 
 
-<h3 class="title mb-4 mt-5 has-text-centered">For our members, if you would like to be featured on our website, please fill the form below!</h3>
+<h3 class="title mb-4 mt-5 has-text-centered">Join us! To apply to become a member of TuNA all you need to do is fill in the form below, and we’ll get back to you!</h3>
 
 <form action="https://formspree.io/f/xdkkawdl" method="POST" class="box" enctype="multipart/form-data">
 
@@ -90,9 +90,19 @@ permalink: /members/
         <input class="input is-fullwidth" style="width: 80%;" type="url" name="profile_picture_url" placeholder="https://example.com/your-image.jpg" required>
     </div>
 </div>
-
-    </div>
+  </div>
     <!-- Full Width Fields (Below Both Columns) -->
+    <div class="column is-12">
+  <div class="field has-text-centered">
+    <div class="control">
+      <label class="checkbox">
+        <input type="checkbox" name="consent" required>
+        I agree to be added to the list of members on TuNA’s website.
+      </label>
+    </div>
+  </div>
+  </div>
+
   </div>
   <!-- Profile Picture Upload (Full Width) -->
 
