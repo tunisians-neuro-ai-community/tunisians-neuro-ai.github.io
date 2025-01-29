@@ -52,4 +52,11 @@
       scholar: https://scholar.google.fr/citations?user=6k9vFL0AAAAJ&hl=fr
       github: https://github.com/LabNNL
       location: Montreal, Canada
+    - name: Maryem Benslimane
+      image: /img/mbenslimane.jpeg
+      affiliation: Université de Montréal
+      role: MSc Student
+      linkedin: https://www.linkedin.com/in/maryem-benslimene/
+      github: https://github.com/MaryemBenslimene
+      location: Montreal, Canada
 
