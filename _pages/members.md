@@ -16,37 +16,37 @@ permalink: /members/
 <div class="columns is-multiline">
     <div class="column is-6">
         <div class="field mb-4">
-            <label class="label">Full Name</label>
+            <label class="label">Full Name (Required)</label>
             <div class="control">
                 <input class="input" style="width: 80%;" type="text" name="name" placeholder="Foulen(a) El Foulani(ya)" required>
             </div>
         </div>
         <div class="field mb-4">
-            <label class="label">Location (Where Based)</label>
+            <label class="label">Location (Where Based; Required)</label>
             <div class="control">
                 <input class="input" style="width: 80%;" type="text" name="location" placeholder="City, Country" required>
             </div>
         </div>
         <div class="field mb-4">
-            <label class="label">Email</label>
+            <label class="label">Email (Required)</label>
             <div class="control">
             <input class="input" style="width: 80%;" type="email" name="email" placeholder="Enter your email (Will not be displayed on our website)" required>
             </div>
         </div>
         <div class="field mb-4">
-            <label class="label">Google Scholar Profile</label>
+            <label class="label">Google Scholar Profile (Optional)</label>
             <div class="control">
             <input class="input" style="width: 80%;" type="url" name="scholar" placeholder="https://scholar.google.com/citations?user=Foulen(a)ElFoulani(ya)">
             </div>
         </div>
         <div class="field mb-4">
-            <label class="label">Personal Website</label>
+            <label class="label">Personal Website (Optional)</label>
             <div class="control">
             <input class="input" style="width: 80%;" type="url" name="website" placeholder="https://Foulen(a)ElFoulani(ya).com">
             </div>
         </div>
         <div class="field">
-            <label class="label">GitHub Profile</label>
+            <label class="label">GitHub Profile (Optional)</label>
             <div class="control">
             <input class="input" style="width: 80%;" type="url" name="github" placeholder="https://github.com/Foulen(a)ElFoulani(ya)">
             </div>
@@ -55,37 +55,37 @@ permalink: /members/
     <!-- Right Column -->
     <div class="column is-6">
         <div class="field mb-4">
-            <label class="label mb-2">Affiliation</label>
+            <label class="label mb-2">Affiliation (Optional)</label>
             <div class="control">
             <input class="input" style="width: 80%;" type="text" name="affiliation" placeholder="University, company, institution" required>
             </div>
         </div>
         <div class="field mb-4">
-            <label class="label">Position</label>
+            <label class="label">Position (Optional)</label>
             <div class="control">
                 <input class="input" style="width: 80%;" type="text" name="position" placeholder="Your role (e.g., Researcher, Student)" required>
             </div>
         </div>
       <div class="field mb-4">
-        <label class="label">Twitter/X Profile</label>
+        <label class="label">Twitter/X Profile (Optional)</label>
         <div class="control">
           <input class="input" style="width: 80%;" type="url" name="twitter" placeholder="https://twitter.com/Foulen(a)ElFoulani(ya)">
         </div>
       </div>
       <div class="field mb-4">
-        <label class="label">BlueSky Profile</label>
+        <label class="label">BlueSky Profile (Optional)</label>
         <div class="control">
           <input class="input" style="width: 80%;" type="url" name="bluesky" placeholder="https://bsky.app/profile/Foulen(a)ElFoulani(ya)">
         </div>
       </div>
       <div class="field mb-4">
-        <label class="label">LinkedIn Profile</label>
+        <label class="label">LinkedIn Profile (Optional)</label>
         <div class="control">
           <input class="input" style="width: 80%;" type="url" name="linkedin" placeholder="https://linkedin.com/in/Foulen(a)ElFoulani(ya)">
         </div>
       </div>
       <div class="field">
-        <label class="label">A Picture URL (Yours or one you like; Square Format)</label>
+        <label class="label">A Picture URL (Required; Yours or one you like; Square Format)</label>
         <div class="control">
         <input class="input is-fullwidth" style="width: 80%;" type="url" name="profile_picture_url" placeholder="https://example.com/your-image.jpg" required>
     </div>
