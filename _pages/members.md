@@ -55,13 +55,13 @@ permalink: /members/
     <!-- Right Column -->
     <div class="column is-6">
         <div class="field mb-4">
-            <label class="label mb-2">Affiliation (Optional)</label>
+            <label class="label mb-2">Affiliation (Required)</label>
             <div class="control">
             <input class="input" style="width: 80%;" type="text" name="affiliation" placeholder="University, company, institution" required>
             </div>
         </div>
         <div class="field mb-4">
-            <label class="label">Position (Optional)</label>
+            <label class="label">Position (Required)</label>
             <div class="control">
                 <input class="input" style="width: 80%;" type="text" name="position" placeholder="Your role (e.g., Researcher, Student)" required>
             </div>
