@@ -1,11 +1,19 @@
 ---
 layout: post
 title:  "TuNA's first Meetup"
-event_date: Jan/Feb 2025 [TBD]
+event_date: 4 February 2025
 categories: MeetUp
 image: '/img/Koujina_Cafe_00.jpg'
 published: true
-location: [Location: Montreal]
+location: Koujina Café, Montreal
 ---
 
 The goal of the first meet-up is to launch the discussions that will shape the mission and activities organized by TuNA. In addition to getting to know each other better, we will share ideas, discuss the website and social media presence, creating a mailing-list or slack workspace, the logo design, reaching out to potential new members, event organization and sponsorships etc.
+
+### **Tuna Community Meeting Recap – February 4th**  
+
+The first Tuna Community meeting gathered ten attendees to discuss key aspects of the community, including communication channels, meeting structure, activities, and network expansion. The discussion began with introductions, followed by a presentation from Dr. Karim outlining the vision behind the initiative.  
+
+One of the main outcomes was the establishment of communication channels as well as fixing meetings frequency and dates.
+
+Attendees explored potential activities, including workshops, mentorship programs, knowledge sharing, and research promotion. Plans for events in Montreal, such as an annual scientific day and mini-competitions, were discussed, as well as long-term initiatives to organize symposiums and NeuroAI outreach in Tunisia. The importance of building connections with relevant networks was also highlighted.  
