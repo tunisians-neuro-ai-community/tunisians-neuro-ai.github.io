@@ -3,7 +3,6 @@ title: News
 subtitle: We share the community latest news and we highlight tunisians and their achievements in the field
 layout: news_page
 show_sidebar: false
-sort: price
 permalink: /news/
 
 ---
