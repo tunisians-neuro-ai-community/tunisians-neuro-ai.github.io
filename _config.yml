@@ -5,11 +5,9 @@ tagline: TuNA
 email: hamza.abdelhedii@gmail.com
 description: >
   A community of Tunisians with an interest in neuroscience and AI.
-baseurl: "/tunisians-neuroscience-ai"
-url: "https://www.tunisiansneuroscienceai.com"
+baseurl: "/tuna-community"
+url: "https://www.tuna-community.org"
 permalink: pretty
-#favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
 hide_share_buttons: false
 theme_color: '#eb8686'
 fixed_navbar: top
