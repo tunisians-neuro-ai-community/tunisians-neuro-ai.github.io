@@ -78,7 +78,7 @@
         {% endfor %}
     </div>
 {% endif %}
-{% unless page.url == "/" %}
+{% if page.url == "/members/" %}
     <!-- Interactive Map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
@@ -148,5 +148,5 @@
     } else {
         map.setView([20, 0], 2);
     }
-</script>{% endunless %}
-
+    </script>
+{% endif %}
