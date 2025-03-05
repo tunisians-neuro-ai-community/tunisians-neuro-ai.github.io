@@ -4,6 +4,7 @@ title: List of Members
 members: members
 show_sidebar: false
 permalink: /members/
+show_map: True
 ---
 
 
