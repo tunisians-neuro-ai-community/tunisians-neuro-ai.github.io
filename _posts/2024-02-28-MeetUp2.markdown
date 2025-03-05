@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TuNA's 2nd Meetup"
+event_date: 4 March 2025
+categories: MeetUp
+image: '/img/Koujina_Cafe_00.jpg'
+published: true
+location: Koujina Café, Montreal
+---
+
+The goal of the first meet-up is to continue the discussions on TuNA's mission and activities. In addition to getting to meet new members, we will continue previous discussions and start planning our first event etc.
+
+### **Tuna Community Meeting Recap – March 4th**  
+
+The 2nd Tuna Community meeting gathered eleven attendees to discuss the next meeting which would be our first open event with an invited speaker and lightening talks as well as various structural and organazational aspects of the community.  
