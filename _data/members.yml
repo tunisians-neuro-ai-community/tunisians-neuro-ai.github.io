@@ -13,6 +13,8 @@
       scholar: https://scholar.google.com/citations?user=FvXuJbUAAAAJ
       website: http://www.karimjerbi.com
       location: Montreal, Canada
+      lat: 45.510900
+      lng: -73.610834
     - name: Hamza Abdelhedi
       image: /img/hamza_abdelhedi.jpeg
       affiliation: Mila, Université de Montréal
@@ -24,6 +26,8 @@
       website: https://hamzaabdelhedi.com
       github: https://github.com/BabaSanfour
       location: Montreal, Canada
+      lat: 45.510730
+      lng: -73.611034
     - name: Myriam Hafsia
       image: /img/Mariem_Hafsia.jpg
       affiliation: Université de Montréal
@@ -31,6 +35,8 @@
       location: Montreal, Canada
       linkedin: https://www.linkedin.com/in/mariemhafsia/
       github: https://github.com/Mhafsia
+      lat: 45.503311
+      lng: -73.624153
     - name: Meriam Zid
       image: /img/meriam_zid.jpeg
       affiliation: Université de Montréal
@@ -38,6 +44,8 @@
       location: Montreal, Canada
       scholar: https://scholar.google.com/citations?user=I6CnFEMAAAAJ&hl=fr
       linkedin: https://www.linkedin.com/in/meriam-zid-52353a1b7/
+      lat: 45.500178
+      lng: -73.616340
     - name: Istabrak Abbes 
       image: /img/istabrak.jpg
       affiliation: Université de Montréal
@@ -45,6 +53,8 @@
       location: Montreal, Canada
       linkedin: https://www.linkedin.com/in/istabrak-abbes/
       github: https://github.com/istabrak-abbes
+      lat: 45.530713
+      lng: -73.613758
     - name: Yosra Cherni
       image: /img/yosra.jpeg
       affiliation: Université de Montréal
@@ -52,6 +62,8 @@
       scholar: https://scholar.google.fr/citations?user=6k9vFL0AAAAJ&hl=fr
       github: https://github.com/LabNNL
       location: Montreal, Canada
+      lat: 45.508947
+      lng: -73.611602
     - name: Maryem Benslimane
       image: /img/mbenslimane.jpeg
       affiliation: Université de Montréal
@@ -59,15 +71,20 @@
       linkedin: https://www.linkedin.com/in/maryem-benslimene/
       github: https://github.com/MaryemBenslimene
       location: Montreal, Canada
+      lat: 45.511100
+      lng: -73.610834
     - name: Fidaa Akrout
       image: /img/fidaa.jpg
       affiliation: BRAMS laboratory, Université de Montréal
       role: PhD Student
       location: Montreal, Canada
+      lat: 45.511200
+      lng: -73.611034
     - name: Eya Ibrahim
       image: /img/eya_ibrahim.jpg
       affiliation: McGill, Montreal Neurological Institute (MNI)
       role: BSc Student
       location: Montreal, Canada
       linkedin: https://www.linkedin.com/in/eyaibrahim
-
+      lat: 45.509354
+      lng: -73.581603
