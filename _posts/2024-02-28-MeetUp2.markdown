@@ -3,17 +3,20 @@ layout: post
 title:  "TuNA's 2nd Meetup"
 event_date: 4 March 2025
 categories: MeetUp
-image: '/img/Koujina_Cafe_00.jpg'
+image: '/img/meetups/meetup2.jpeg'
 published: true
 location: Koujina Café, Montreal
 ---
 
-The goal of the first meet-up is to continue the discussions on TuNA's mission and activities. In addition to getting to meet new members, we will continue previous discussions and start planning our first event etc.
+The goal of the first meet-up is to continue the discussions on TuNA's mission and activities. In addition to meeting new members, we will revisit our discussions and start planning our first event.
 
-### **Tuna Community Meeting Recap – March 4th**  
+### Tuna Community Meeting Recap – March 4th
 
-The 2nd Tuna Community meeting gathered eleven attendees to discuss the next meeting which would be our first open event with an invited speaker and lightening talks as well as various structural and organazational aspects of the community.  
+The 2nd Tuna Community meeting gathered eleven attendees to plan our upcoming open event featuring an invited speaker, lightning talks, and discussions on community structure and organization.
 
 ### Special Thanks
 
-A special thanks to Koujina Café for hosting us, letting us use their space, and accommodating our needs! You can visit them at *430 R. Saint-Zotique, Montreal, Quebec H2S 1L9* and follow them on [Instagram](https://www.instagram.com/koujinacafe/?hl=en).
+A special thanks to Koujina Café for hosting us, providing an inviting space, and catering to our needs! Visit them at *430 R. Saint-Zotique, Montreal, Quebec H2S 1L9* and follow them on [Instagram](https://www.instagram.com/koujinacafe/?hl=en).
+
+### Group Photo
+<img src="{{ '/img/meetups/meetup2.jpeg' | relative_url }}" alt="Group Photo" style="max-width: 80%; height: auto; display: block; margin: 0 auto;">

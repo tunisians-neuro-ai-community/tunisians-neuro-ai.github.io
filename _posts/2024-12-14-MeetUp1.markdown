@@ -3,7 +3,7 @@ layout: post
 title:  "TuNA's first Meetup"
 event_date: 4 February 2025
 categories: MeetUp
-image: '/img/Koujina_Cafe_00.jpg'
+image: '/img/meetups/meetup1.jpeg'
 published: true
 location: Koujina Café, Montreal
 ---
@@ -21,3 +21,6 @@ Attendees explored potential activities, including workshops, mentorship program
 ### Special Thanks
 
 A special thanks to Koujina Café for hosting us, letting us use their space, and accommodating our needs! You can visit them at *430 R. Saint-Zotique, Montreal, Quebec H2S 1L9* and follow them on [Instagram](https://www.instagram.com/koujinacafe/?hl=en).
+
+### Group Photo
+<img src="{{ '/img/meetups/meetup1.jpeg' | relative_url }}" alt="Group Photo" style="max-width: 80%; height: auto; display: block; margin: 0 auto;">
